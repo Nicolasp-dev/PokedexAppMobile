@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
   }
 
   @SuppressLint("SetTextI18n")
-  private fun initUi(id: Int = 148){
+  private fun initUi(id: Int = 0){
     viewModel.getPokemonData(id)
 
     viewModel.pokemonInfo.observe(this, Observer{

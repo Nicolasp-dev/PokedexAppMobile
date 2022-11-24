@@ -8,6 +8,4 @@ data class PokemonResponse(
     val height: Int,
     val sprites: Sprites,
     val types: List<TypeXX>
-){
-    val formattedNumber = number.toString()
-}
+)
